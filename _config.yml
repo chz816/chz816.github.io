@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Rachel Chujie Zheng"
-  avatar           : "/images/about-rachel.png"
+  avatar           : "about-rachel.png"
   bio              : "NLP/IR"
   location         : "Cambridge, MA"
   employer         :
