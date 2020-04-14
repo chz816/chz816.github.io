@@ -17,7 +17,7 @@ tags:
 
 | Dataset  |  # doc  |
 | :------: | :-----: |
-|  CNN/DM  | 312085  |
+|  CNN/DM  | 311971  |
 | Gigaword | 3995559 |
 |   XSUM   | 226183  |
 | DUC 2003 |  ~1260  |
@@ -32,6 +32,12 @@ tags:
 包括约30万新闻文章，数据集一共有两个特征：新闻文章和highlights。
 
 - 已经被包括在tensorflow.datasets中
+
+数据举例：
+
+```
+{'article': <tf.Tensor: shape=(), dtype=string, numpy=b"By . Associated Press . PUBLISHED: . 14:11 EST, 25 October 2013 . | . UPDATED: . 15:36 EST, 25 October 2013 . The bishop of the Fargo Catholic Diocese in North Dakota has exposed potentially hundreds of church members in Fargo, Grand Forks and Jamestown to the hepatitis A virus in late September and early October. The state Health Department has issued an advisory of exposure for anyone who attended five churches and took communion. Bishop John Folda (pictured) of the Fargo Catholic Diocese in North Dakota has exposed potentially hundreds of church members in Fargo, Grand Forks and Jamestown to the hepatitis A . State Immunization Program Manager Molly Howell says the risk is low, but officials feel it's important to alert people to the possible exposure. The diocese announced on Monday that Bishop John Folda is taking time off after being diagnosed with hepatitis A. The diocese says he contracted the infection through contaminated food while attending a conference for newly ordained bishops in Italy last month. Symptoms of hepatitis A include fever, tiredness, loss of appetite, nausea and abdominal discomfort. Fargo Catholic Diocese in North Dakota (pictured) is where the bishop is located .">, 'highlights': <tf.Tensor: shape=(), dtype=string, numpy=b'Bishop John Folda, of North Dakota, is taking time off after being diagnosed .\nHe contracted the infection through contaminated food in Italy .\nChurch members in Fargo, Grand Forks and Jamestown could have been exposed .'>}
+```
 
 
 
@@ -48,6 +54,14 @@ FeaturesDict({
     'document': Text(shape=(), dtype=tf.string),
     'summary': Text(shape=(), dtype=tf.string),
 })
+```
+
+数据举例：
+
+```
+{'document': <tf.Tensor: shape=(), dtype=string, numpy=b'a lung infection that killed two people and sickened ## in just a few days was transmitted by a pet parrot , a health official said thursday .'>, 'summary': <tf.Tensor: shape=(), dtype=string, numpy=b'tests show that illness killing two sickening ## in croatia was'>}
+
+{'document': <tf.Tensor: shape=(), dtype=string, numpy=b"british candy maker cadbury plc on tuesday accepted and recommended to shareholders kraft 's improved takeover offer worth $ ##.# billion , potentially ending a months-long corporate battle to create the world 's largest maker of chocolate and sweets .">, 'summary': <tf.Tensor: shape=(), dtype=string, numpy=b'kraft foods cadbury agree $ ##.# bln deal'>}
 ```
 
 
