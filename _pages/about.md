@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Rachel Chujie Zheng | Research | CV"
+title: "Rachel's Page"
 excerpt: "About me"
 author_profile: true
 redirect_from: 

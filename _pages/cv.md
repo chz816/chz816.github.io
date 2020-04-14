@@ -24,8 +24,7 @@ Work experience
 
 * Fall 2018: Research Assistant
   * University of Delaware
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+  * Supervisor: Prof. Harry Jiannan Wang
   
 Skills
 ======
