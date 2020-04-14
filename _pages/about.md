@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Rachel's Page"
+title: "Rachel's Page - University of Delaware / Ph.D. student / NLP/ IR / ML"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
