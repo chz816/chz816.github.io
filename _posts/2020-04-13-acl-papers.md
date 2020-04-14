@@ -77,7 +77,7 @@ tags:
 ## Keep Meeting Summaries on Topic: Abstractive Multi-Modal Meeting Summarization
 
 - 论文链接：https://www.aclweb.org/anthology/P19-1210.pdf
-- 专注于
+- 专注于对于会议进行摘要概括
 
 
 
@@ -90,12 +90,24 @@ tags:
 ## Zero-Shot Cross-Lingual Abstractive Sentence Summarization through Teaching Generation and Attention
 
 - 论文链接：https://www.aclweb.org/anthology/P19-1305.pdf
+- GitHub链接：https://github.com/KelleyYin/Cross-lingual-Summarization
+- 侧重于概括+翻译：为文章提供另外一种语言的摘要概括
 
 
 
 ## Abstractive text summarization based on deep learning and semantic content generalization
 
 - 论文链接：https://www.aclweb.org/anthology/P19-1501.pdf
+- GitHub链接：https://github.com/pkouris/abtextsum
+- 结合了深层学习的encoder-decoder结构和semantic-based data transformations
+  - 首先进行text generalization对文本进行处理
+    - Named Entities-driven Generalization (NEG)
+    - Level-driven Generalization (LG)
+  - 利用Seq2seq来生成摘要
+  - 再处理：将笼统的通用词转化成为具体文本中具象词
+- 数据：
+  - Gigaword
+  - DUC 2014
 
 
 
@@ -108,4 +120,9 @@ tags:
 > Address this by aiming to generate a short text summary of the video that describes the most salient content of the video
 
 - 使用了多资源的Seq2seq模型来整合信息，形成完整的输出。
+  - Video-based：使用ResNeXt来提取视频中的特征
+    - 输出是一个特征的序列（考虑到每16个不重叠的frames）
+  - Speech-based：使用ASpIRE和EESEN
+- 数据：How2，包括了2000小时的短视频，每个视频包括了human-generated transcript和2-3句的摘要概括
+  - 链接：https://github.com/srvk/how2-dataset
 
