@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Rachel Chujie Zheng"
-  avatar           : "about-rachel.png"
+  avatar           : "/image/about-rachel.png"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Cambridge, MA"
   employer         :
