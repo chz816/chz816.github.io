@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      TREC 2020出现了新Track! - Podcasts Track
+title:      TREC 2020新Track - Podcasts Track
 subtitle:   TREC 2020 Podcasts Track 介绍
 date:       2020-04-13
 author:     Rachel

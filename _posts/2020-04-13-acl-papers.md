@@ -90,10 +90,6 @@ tags:
   - 每个视频是30分钟的会议，包括4位参会者
   - 链接：http://groups.inf.ed.ac.uk/ami/corpus/
 
-- 论文链接：https://www.aclweb.org/anthology/P19-1212.pdf
-- 数据链接：https://evasharma.github.io/bigpatent/
-- 使用专利申请文件
-
 
 
 ## Zero-Shot Cross-Lingual Abstractive Sentence Summarization through Teaching Generation and Attention
