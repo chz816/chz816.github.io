@@ -78,12 +78,21 @@ tags:
 
 - 论文链接：https://www.aclweb.org/anthology/P19-1210.pdf
 - 专注于对于会议进行摘要概括
-
-
-
-## BIGPATENT: A Large-Scale Dataset for Abstractive and Coherent Summarization
+- 首先对会议按照话题进行分割，再对每一个部分进行摘要概括
+  - 数据包括：视频，ASR生成的文本
+  - Visual Focus of Attention (VFOA)：根据每个会议参加者看向的方向来确定谁在说话
+  - 将会议划分为不同的片段，每个片段有自己的主题
+    - Encoder：会议transcript
+    - Decoder：topic segmentation
+      - 使用SegBot
+  - 概括会议内容使用了Pointer-Generator Network (PGN)
+- 数据：AMI Meeting Corpus
+  - 每个视频是30分钟的会议，包括4位参会者
+  - 链接：http://groups.inf.ed.ac.uk/ami/corpus/
 
 - 论文链接：https://www.aclweb.org/anthology/P19-1212.pdf
+- 数据链接：https://evasharma.github.io/bigpatent/
+- 使用专利申请文件
 
 
 
@@ -92,6 +101,12 @@ tags:
 - 论文链接：https://www.aclweb.org/anthology/P19-1305.pdf
 - GitHub链接：https://github.com/KelleyYin/Cross-lingual-Summarization
 - 侧重于概括+翻译：为文章提供另外一种语言的摘要概括
+  - Teacher：同语言
+  - Student：跨语言
+  - Teacher和Student都使用了Transformer架构
+- 数据：
+  - Gigaword
+  - DUC 2004
 
 
 
