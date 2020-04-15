@@ -12,8 +12,6 @@ tags:
     - Chinese
 ---
 
-# 前言
-
 > ACL (Association for Computational Linguistics) 2019共有661篇文章入选proceedings。这篇blog记录一下本届ACL中和Abstractive Summarization相关的论文。
 
 
