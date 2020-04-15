@@ -13,6 +13,8 @@ tags:
     - dataset
 ---
 
+> 这篇blog尝试总结了一下abstractive summarization常用的数据集。
+
 # 新闻类常用的数据集
 
 | Dataset  |  # doc  |
