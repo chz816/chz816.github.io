@@ -1,15 +1,11 @@
 ---
-layout:     post
-title:      TREC 2020新Track - Podcasts Track
-subtitle:   TREC 2020 Podcasts Track 介绍
-date:       2020-04-13
-author:     Rachel
-header-img: img/post-bg-os-metro.jpg
-catalog: true
+title: 'TREC 2020 Podcasts Track Introduction'
+date: 2020-04-13
+permalink: /posts/2020/04/trec-2020-podcasts-introduction/
 tags:
-    - IR
-    - NLP
-    - Chinese
+  - IR
+  - NLP
+  - Chinese
 ---
 
 

@@ -1,16 +1,11 @@
 ---
-layout:     post
-title:      Abstractive Summarization常用的数据集
-subtitle:   关于数据集的基本信息介绍
-date:       2020-04-13
-author:     Rachel
-header-img: img/post-bg-os-metro.jpg
-catalog: true
+title: 'Abstractive Summarization Dataset'
+date: 2020-04-13
+permalink: /posts/2020/04/abstractive-simmarization-dataset/
 tags:
-    - IR
-    - NLP
-    - Chinese
-    - dataset
+  - IR
+  - NLP
+  - Chinese
 ---
 
 > 这篇blog尝试总结了一下abstractive summarization常用的数据集。

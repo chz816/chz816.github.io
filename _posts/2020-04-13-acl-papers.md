@@ -1,15 +1,11 @@
 ---
-layout:     post
-title:      ACL 2019 扫文清单
-subtitle:   ACL 2019 Abstractive Summarization Papers
-date:       2020-04-13
-author:     Rachel
-header-img: img/post-bg-os-metro.jpg
-catalog: true
+title: 'ACL 2019 Abstractive Summarization Papers'
+date: 2020-04-13
+permalink: /posts/2020/04/acl-2019-papers/
 tags:
-    - IR
-    - NLP
-    - Chinese
+  - IR
+  - NLP
+  - Chinese
 ---
 
 > ACL (Association for Computational Linguistics) 2019共有661篇文章入选proceedings。这篇blog记录一下本届ACL中和Abstractive Summarization相关的论文。
