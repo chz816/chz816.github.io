@@ -84,6 +84,10 @@ Beam search: maintain the full vocabulary while limiting itself to several poten
 - Link: https://arxiv.org/pdf/1602.06023.pdf
 - PyTorch-based program is in progress on Github. (https://github.com/JRC1995/Abstractive-Summarization)
 
+### About Paper
+
+This paper uses Attentional Encoder-Decoder RNN for abstractive summarization.
+
 
 
 ## FTSum
@@ -160,6 +164,11 @@ Using the binary discretization on the cosine matrix leads to an unweighted grap
 - Reference: Klein, G., Kim, Y., Deng, Y., Senellart, J., & Rush, A. M. (2017). Opennmt: Open-source toolkit for neural machine translation. *arXiv preprint arXiv:1701.02810*.
 - Link: https://arxiv.org/pdf/1701.02810.pdf
 - Github link: https://github.com/OpenNMT/OpenNMT-py
+- Website link: https://opennmt.net/
+
+### About Paper
+
+This paper designs to solve the problem in neural machine translation. It uses encoder-decoder architecture within RNN to map the source word to a representation, and then generate the possible next word.
 
 
 
@@ -168,6 +177,16 @@ Using the binary discretization on the cosine matrix leads to an unweighted grap
 - Reference: See, A., Liu, P. J., & Manning, C. D. (2017). Get to the point: Summarization with pointer-generator networks. *arXiv preprint arXiv:1704.04368*.
 - Link: https://arxiv.org/pdf/1704.04368.pdf
 - Github: https://github.com/abisee/pointer-generator
+
+### About Paper
+
+This paper introduces the pointer-generator network which copies words from the source text and retains the ability of generating new words. This method can be viewed as a balance between extractive and abstractive summarization. 
+
+[Pointer network](https://arxiv.org/pdf/1506.03134.pdf) is introduced in 2015, to solve the fixed size of the output dictionary constraint. 
+
+### Feature: Coverage Mechanism
+
+One of the most important contribution from this paper is using coverage mechanism to solve the duplicate text in the summary. [Coverage Mechanism is firstly proposed for machine translation](https://arxiv.org/pdf/1601.04811v6.pdf). The fundamental idea is to accumulate the previous attention weights as the coverage vector and use it to influence the current attention weight.
 
 
 
