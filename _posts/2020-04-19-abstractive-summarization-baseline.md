@@ -1,6 +1,6 @@
 ---
 title: 'Abstractive Summarization Baseline Model'
-date: 2020-04-29
+date: 2020-04-19
 permalink: /posts/2020/04/abstractive-summarization-baseline/
 tags:
   - IR
