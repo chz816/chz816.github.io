@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Rachel's Page - Ph.D. student / NLP / IR / ML"
+title: "Rachel's Page - Ph.D. student / NLP / ML"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -12,7 +12,7 @@ Hi!
 
 My name is Rachel Chujie Zheng. I am currently a 2nd-year Ph.D. student at the [Institute for Financial Services Analytics](https://lerner.udel.edu/centers/institute-for-financial-services-analytics/), University of Delaware. I am fortunate to be advised by Prof. [Harry Jiannan Wang](https://lerner.udel.edu/faculty-staff-directory/jiannan-harry-wang/).
 
-My research topics include Natural Language Processing, Information Retrieval, and Machine Learning. I am expected to graduate in Spring 2022.
+My research topics include Natural Language Processing and Machine Learning. I am expected to graduate in Spring 2022.
 
 I am also enrolled in the [Online Master of Computer Science program](https://www.omscs.gatech.edu/) at the Georgia Institute of Technology, and I am expected to finish the coursework in Summer 2022.
 

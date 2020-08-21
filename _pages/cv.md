@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * Ph.D in Financial Services Analytics, University of Delaware, 2022 (expected)
-  * Research focuses on Natural Language Processing and Information Retrieval
+  * Research focuses on Natural Language Processing and Deep Learning
 * M.S. in Computer Science (Online), Georgia Institute of Technology, 2022 (expected)
 * M.S. in Financial Engineering, Lehigh University, 2018
 * B.S. in Finance, Xi'an Jiaotong University, China, 2016
