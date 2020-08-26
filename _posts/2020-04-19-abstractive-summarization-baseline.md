@@ -15,23 +15,23 @@ Based on the [papers related to abstractive summarization in the proceedings of 
 
 # Overview
 
-| Model             | Cited by # | Year |
-| ----------------- | ---------- | ---- |
-| ABS               | 1376       | 2015 |
-| CoreRank          | 14         | 2018 |
-| Featseq2seq       | 738        | 2016 |
-| FTSum             | 49         | 2018 |
-| GLEAM             | ?          | 2019 |
-| KL-Sum            | 453        | 2019 |
-| LexRank           | 2286       | 2004 |
-| Open-NMT          | 697        | 2017 |
-| PGN               | 667        | 2017 |
-| RAS-Elman         | 434        | 2016 |
-| R3Sum             | 38         | 2018 |
-| RNN Langage Model | 1073       | 2011 |
-| SEASS             | 127        | 2017 |
-| S2S+CGU           | 50         | 2018 |
-| SumBasic          | 246        | 2007 |
+| Model                 | Cited by # | Year |
+| --------------------- | ---------- | ---- |
+| **ABS**               | 1376       | 2015 |
+| CoreRank              | 14         | 2018 |
+| **Featseq2seq**       | 738        | 2016 |
+| FTSum                 | 49         | 2018 |
+| GLEAM                 | ?          | 2019 |
+| KL-Sum                | 453        | 2019 |
+| **LexRank**           | 2286       | 2004 |
+| **Open-NMT**          | 697        | 2017 |
+| **PGN**               | 667        | 2017 |
+| RAS-Elman             | 434        | 2016 |
+| R3Sum                 | 38         | 2018 |
+| **RNN Langage Model** | 1073       | 2011 |
+| SEASS                 | 127        | 2017 |
+| S2S+CGU               | 50         | 2018 |
+| SumBasic              | 246        | 2007 |
 
 ## ABS
 
