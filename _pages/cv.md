@@ -29,7 +29,6 @@ Work experience
 Skills
 ======
 * Python
-  * Tensorflow
 * SQL
-* SAS
+* JAVA
 
