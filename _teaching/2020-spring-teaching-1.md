@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant - MIST 467: Machine Learning"
+title: "Teaching Assistant - MISY 467: Machine Learning"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2020-spring-teaching-1/
